@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="31.829">
+<testcase classname="Task Two" name="Logging into the URL" time="14.098">
+<system-out><![CDATA[Given Entering the url "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".passed
+And Entering the username "Admin" and password "admin123"...................passed
+Then logging into the profile...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Task Two" name="Fetching employee details" time="4.964">
+<system-out><![CDATA[Given Getting all details...................................................passed
+And Searching them by emp id "123" and validating them......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Task Two" name="Creating employee details" time="3.847">
+<system-out><![CDATA[Given Selecting and adding the requird details first name "Prasanth" last name "S" Middle name "Jai" and emp id.passed
+And Saving the created detail...............................................passed
+Then Validating the detail..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Task Two" name="Adding the Job Details" time="5.801">
+<system-out><![CDATA[Given Entering into the job details.........................................passed
+And Editing the job details.................................................passed
+Then Saving the details.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Task Two" name="Deleting employee details" time="2.517">
+<system-out><![CDATA[Given Getting details for deleting..........................................passed
+And Searching them by emp id 123 and validating the delete..................passed
+]]></system-out>
+</testcase>
+</testsuite>
